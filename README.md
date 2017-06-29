@@ -3,7 +3,7 @@ This repository contains one MatLab code and one Python code for solving the "Gl
 
 In the Matlab code, nonlinear logistic regression is used. The user can go up to third order for mapping the features. No machine learning library is used in this code. A sigmoid-based cost function is evaluated for each classifier and then minimized. The first order, second order and third order models predict 47%, 67% and 76% of the cross validation data correctly, respectively.
 
-In the Python code, the Scikit-learn library is used. Two different classifiers (linear logistic regression and random forest) are used to demonstrate the advantage of one over the other for this data set. With the linear regression model we get recall and precision of 0.45 and 0.35 respectively which is close to what the MatLab code predicts using linear logistic regression. With the random forest model we get 0.91 for both precision and recall.
+In the Python code, the Scikit-learn library is used. Two different classifiers (linear logistic regression and random forest) are used to demonstrate the advantage of one over the other for this data set. With the linear regression model we get recall and precision of 0.46 and 0.43 respectively which is close to what the MatLab code predicts using linear logistic regression. With the random forest model we get 0.93 for both precision and recall.
 
 ---------------------------------------------------------------------------------------
 
